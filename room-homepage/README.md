@@ -22,6 +22,7 @@ Users should be able to:
 
 ### Responsive
 ![](https://user-images.githubusercontent.com/60886336/170841885-de55a731-8d3a-4e46-91dc-4eddc4160930.gif)
+Here the [live demo](https://sanurb.github.io/Frontend-Mentor-Challenges/room-homepage/)
 
 ### :sagittarius: Author
 > :man: Santiago Urbano Rivadeneira
