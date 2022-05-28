@@ -21,6 +21,7 @@ Users should be able to:
 - Navigate the slider using either their mouse/trackpad or keyboard
 
 ### Responsive
+![](https://user-images.githubusercontent.com/60886336/170841885-de55a731-8d3a-4e46-91dc-4eddc4160930.gif)
 
 ### :sagittarius: Author
 > :man: Santiago Urbano Rivadeneira
