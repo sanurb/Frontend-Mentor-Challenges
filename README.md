@@ -15,3 +15,4 @@ This repository contains some challenges from [Frontend Mentors](https://www.fro
 |Name|Difficulty| Technologies / Approaches |
 |---|---|---|
 |  [Huddle landing page with curved sections](https://sanurb.github.io/Frontend-Mentor-Challenges/huddle-landing-page-with-curved-sections-master/index.html) | :star: :star: | HTML, CSS, Mobile First|
+|  [Room-homepage](https://sanurb.github.io/Frontend-Mentor-Challenges/room-homepage/) | :star: :star: :star: | HTML, CSS, Mobile First|
