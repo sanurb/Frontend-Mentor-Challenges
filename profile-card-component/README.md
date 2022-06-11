@@ -29,7 +29,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Demo
 
-- Live Site URL: [Card Component Demo](https://sanurb.github.io/Frontend-Mentor-Challenges/huddle-landing-page-with-curved-sections-master/index.html)
+- Live Site URL: [Card Component Demo](https://sanurb.github.io/Frontend-Mentor-Challenges/profile-card-component/index.html)
 
 ## My process
 
