@@ -1,0 +1,111 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/*==================== VARIABLES CSS ====================*/
+:root {
+    /*========== Primary Colors ==========*/
+	--dark-cyan: hsl(185, 75%, 39%);
+	--very-dark: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    /*========== Neutral Colors ==========*/
+    --dark-gray: hsl(0, 0%, 59%);
+    /*========== Font and typography ==========*/
+	--body-font: 'Kumbh Sans', sans-serif;
+}
+
+/*==================== BASE ====================*/
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 62.5%; /*1 rem = 10 px*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--body-font);
+    color: var(--dark-blue);
+    background-color: var(--dark-cyan);
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+span{
+    color: var(--dark-gray);
+    font-weight: 400;
+}
+
+/*==================== CARD COMPONENT ====================*/
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card__flex{
+    background-color: white;
+    width: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
+}
+
+.card__headerimg{
+    width: 100%;
+    display: block;
+}
+
+.card__text {
+    text-align: center;
+}
+
+.card__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.311);
+}
+
+.card__bodyimg{
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: calc(-48px - 5px); /*tamano de la imagen - borde*/
+}
+
+.card__title{
+    margin: 0;
+    margin-top: 2rem;
+    color: var(--very-dark);
+    font-size: 1.8rem;
+}
+
+.card__text{
+    font-size: 1.7rem;
+    color: var(--dark-gray);
+    margin-bottom: 2rem;
+}
+
+.card__footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card__social h3{
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--very-dark);
+}
+
+.card__social p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    color: var(--dark-gray);
+    font-weight: 400;
+}
