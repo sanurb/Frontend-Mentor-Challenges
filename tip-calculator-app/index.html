@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Tip calculator app</title>
+    <meta name="theme-color" content="rgb(255, 122, 24)">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="logo"><img src="./images/logo.svg" alt="Splitter"></div>
+    <main class="container">
+      <section class="tip">
+        <label for="">Bill</label>
+        <input type="number" class="tip__bill-input" id="bill-input" />
+        <label for="">Select Tip %</label>
+        <div class="tip__percentage">
+          <button class="tip__btn tip__btn--active" type="button">5%</button>
+          <button class="tip__btn" type="button">10%</button>
+          <button class="tip__btn" type="button">15%</button>
+          <button class="tip__btn" type="button">25%</button>
+          <button class="tip__btn" type="button">50%</button>
+          <div id="tip-custom">
+            <input class="tip__custom" type="number" placeholder="CUSTOM" />
+          </div>
+        </div>
+        <div class="tip__people">
+          <label for="">Number of People</label>
+          <label for="" class="error">Can't be Zero</label>
+        </div>
+        <input type="number" class="tip__people-input" />
+      </section>
+
+      <section class="result">
+        <div class="result__net">
+          <div class="result__text">
+            <p>Tip Amount</p>
+            <span class="result__person">/ person</span>
+          </div>
+          <div class="result__amount" id="tip-amount">$4.27</div>
+        </div>
+        <div class="result__total">
+          <div class="result__text">
+            <p>Total</p>
+            <span class="result__person">/ person</span>
+          </div>
+          <div class="result__amount" id="total-amount">$32.79</div>
+        </div>
+        <button class="result__btn">RESET</button>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

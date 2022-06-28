@@ -1,0 +1,87 @@
+/*==================== BASE ====================*/
+$font-stack: 'Space Mono', monospace;
+/*========== Primary Color ==========*/
+$primary-color: hsl(172, 67%, 45%);
+/*========== Neutral Colors ==========*/
+$very-dark-cyan: hsl(183, 100%, 15%);
+$dark-grayish-cyan: hsl(186, 14%, 43%);
+$grayish-cyan: hsl(184, 14%, 56%);
+$light-grayish-cyan: hsl(185, 41%, 84%);
+$very-light-grayish-cyan: hsl(189, 41%, 97%);
+$white: hsl(0, 0%, 100%);
+
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 62.5%; /*1 rem = 10 px*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font: 2.4rem $font-stack;
+    color: $dark-grayish-cyan;
+    background-color: $light-grayish-cyan;
+}
+
+label{
+    color: $dark-grayish-cyan;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    font-size: 1.4rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    padding-right: 18px;
+    background-position: 17px 15px;
+    background-repeat: no-repeat;
+    background-color: $very-light-grayish-cyan;
+    text-align: right;
+    font-size: 24px;
+    color: hsl(183, 100%, 15%);
+    font-weight: bolder;
+    font-family: "Space Mono", monospace;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+button{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+span{
+    font-size: 1.5rem;
+    color: $dark-grayish-cyan;
+    position: relative;
+    bottom: 35px;
+}
+
+.error{
+    visibility: hidden;
+    color: red;
+}
+
+.tip__custom{
+    width: 100%;
+}
