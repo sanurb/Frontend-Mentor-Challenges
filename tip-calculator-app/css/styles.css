@@ -1,6 +1,3 @@
-/*==================== BASE ====================*/
-/*========== Primary Color ==========*/
-/*========== Neutral Colors ==========*/
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -197,7 +194,7 @@ span {
   display: block;
 }
 
-tip__people > label:nth-child(1) {
+.tip__people > label:nth-child(1) {
   display: block;
 }
 /*# sourceMappingURL=styles.css.map */
