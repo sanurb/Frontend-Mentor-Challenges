@@ -26,11 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
+![capture](https://user-images.githubusercontent.com/60886336/176317208-66b68ef7-9a3f-46fc-ac0f-1959531fe691.png)
 
 
 ### Demo
 
-- Live Site URL: [Tip calculator app]()
+- Live Site URL: [Tip calculator app](https://sanurb.github.io/Frontend-Mentor-Challenges/tip-calculator-app/index.html)
 
 ## My process
 
