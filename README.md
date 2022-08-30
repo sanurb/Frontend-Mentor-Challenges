@@ -8,9 +8,9 @@ This repository contains some challenges from [Frontend Mentors](https://www.fro
 |---|---|
 | Newbie | :star: |
 | Junior | :star: :star: |
-| Intermediate | :star: :star: :star:  |
-| Advanced | :star: :star: :star: :star: :star: |
-| Guru | :star: :star: :star: :star: :star: :star: |
+| Intermediate | :star: :star: :star: |
+| Advanced | :star: :star: :star: :star:  |
+| Guru | :star: :star: :star: :star: :star: |
 
 |Name|Difficulty| Technologies / Approaches |
 |---|---|---|
