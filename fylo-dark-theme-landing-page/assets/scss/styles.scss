@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+:root {
+	--blue-intro: hsl(217, 28%, 15%);
+	--blue-main: hsl(218, 28%, 13%);
+	--blue-footer: hsl(216, 53%, 9%);
+	--blue-testimonials: hsl(219, 30%, 18%);
+	--cyan-gradient: hsl(176, 68%, 64%);
+	--blue-gradient: hsl(198, 60%, 50%);
+	--gradient: linear-gradient(
+		to right,
+		var(--cyan-gradient),
+		var(--blue-gradient)
+	);
+	--body-font: "Open Sans", sans-serif;
+	--heading-font: "Raleway", sans-serif;
+
+	--padding-container: 60px 0;
+}
+
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style: none;
+}
+
+img,
+picture {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button {
+	font: inherit;
+	background-color: transparent;
+	border: none;
+}
+body {
+	font-family: var(--body-font);
+	background-color: var(--blue-main);
+}
+
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: var(--padding-container);
+}
+
+.hero {
+	background-color: var(--blue-intro);
+	position: relative;
+	color: #fff;
+
+	&__wave{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 40%;
+
+		&::before{
+			content: "";
+			width: 100%;
+			height: 100px;
+			position: absolute;
+			top: -100px;
+			background-image: url(../images/bg-curvy-mobile.svg);
+			background-repeat: no-repeat;
+			background-size: 100% 100px;
+		}
+	}
+
+	.nav {
+		display: flex;
+		align-items: center;
+		font-family: var(--heading-font);
+
+		&__img {
+			width: 100px;
+			display: block;
+		}
+
+        &__links {
+            margin-left: auto;
+            display: grid;
+            grid-auto-flow: column;
+            gap: 1em;
+		}
+
+		&__link {
+			color: #fff;
+		}
+	}
+
+    &__main{
+        text-align: center;
+		position: relative;
+    }
+
+	&__img{
+		display: block;
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	&__title{
+		font-family: var(--heading-font);
+		margin: 2.5em 0 1em;
+	}
+
+	&__paragraph{
+		line-height: 1.5;
+		margin-bottom: 1.5em;
+	}
+
+	&__cta{
+		display: inline-block;
+		width: 250px;
+		padding: 15px 0;
+		background-image: var(--gradient);
+		font-family: var(--heading-font);
+		font-weight: bold;
+		text-decoration: none;
+		border-radius: 30px;
+	}
+}
