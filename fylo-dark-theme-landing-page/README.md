@@ -1,3 +1,5 @@
+# Frontend Mentor - Fylo dark theme landing page
+![desktop-preview](https://user-images.githubusercontent.com/60886336/209477865-82638f87-ffc4-4b38-944a-19d152f168c3.jpg)
 ## The challenge
 
 The challenge is to build out this landing page and get it looking as close to the design as possible.
