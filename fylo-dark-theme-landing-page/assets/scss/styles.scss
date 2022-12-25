@@ -257,3 +257,109 @@ body {
 		color: #a1a1a1;
 	}
 }
+
+.join{
+	background-image: linear-gradient(var(--blue-main) 50%, var(--blue-footer) 50%);
+	padding: 60px 0;
+
+	&__container{
+		background-color: var(--blue-testimonials);
+		padding: 3.5em 1.5em;
+		border-radius: 15px;
+		text-align: center;
+		color: #fff;
+	}
+
+	&__title{
+		font-family: var(--heading-font);
+		margin-bottom: 1em;
+	}
+
+	&__paragraph{
+		line-height: 1.5;
+		margin-bottom: 1em;
+	}
+
+	&__form{
+		display: grid;
+		gap: 1.2em;
+	}
+
+	&__input{
+		font: inherit;
+		padding: 1em 1.4em;
+		border: none;
+		outline: none;
+		background-color: #fff;
+		border-radius: 30px;
+
+		&--submit{
+			background-image: var(--gradient);
+			color: #fff;
+			font-family: var(--heading-font);
+			font-weight: 700;
+		}
+	}
+}
+
+.footer{
+	color: #fff;
+    background-color: var(--blue-footer);
+
+	&__picture{
+		width: 200px;
+    	margin-bottom: 2.5em;
+	}
+
+	&__contact{
+		padding-bottom: 20px;
+	}
+
+	&__direction{
+		color: #fff;
+		text-decoration: none;
+		display: flex;
+		gap: 1em;
+		align-items: flex-start;
+
+		&--second{
+			margin: 1em 0;
+		}
+	}
+
+	&__nav{
+		display: grid;
+		gap: .7em;
+		margin-top: 2em;
+	}
+
+	&__link{
+		color: #fff;
+		text-decoration: none;
+		font-family: var(--heading-font);
+
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+
+	&__social{
+		margin: 0 auto;
+		margin-top: 4em;
+		width: max-content;
+		display: grid;
+		grid-auto-rows: max-content;
+		grid-auto-flow: column;
+		gap: 1em;
+	}
+
+	&__smedia{
+		display: inline-flex;
+		width: 40px;
+		height: 40px;
+		border: 1px solid #fff;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%
+	}
+}
