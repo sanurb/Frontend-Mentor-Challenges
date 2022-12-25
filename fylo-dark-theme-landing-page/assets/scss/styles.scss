@@ -112,9 +112,24 @@ body {
 
 		&__link {
 			color: #fff;
-			&:hover{
-				font-weight: bold;
-				text-decoration: underline;
+			position: relative;
+			display: inline-block;
+
+			&::before{
+				content: "";
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				height: 2px;
+				background-color: #fff;
+				border-radius: 4px;
+				scale: 0 1;
+				transform-origin: left;
+				transition: scale 0.25s;
+			}
+			&:hover::before{
+				scale: 1;
 			}
 		}
 	}
