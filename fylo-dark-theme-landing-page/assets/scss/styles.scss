@@ -111,8 +111,6 @@ body {
     }
 
 	&__img{
-		display: block;
-		width: 100%;
 		max-width: 600px;
 		margin: 0 auto;
 	}
@@ -136,5 +134,126 @@ body {
 		font-weight: bold;
 		text-decoration: none;
 		border-radius: 30px;
+	}
+}
+
+.cards{
+	text-align: center;
+	display: grid;
+	gap: 5em;
+	color: #fff;
+
+	&__img{
+		width: 110px;
+		height: 130px;
+		object-fit: contain;
+		margin: 0 auto;
+		margin-bottom: 1.5em;
+	}
+
+	&__tile{
+		font-family: var(--heading-font);
+		margin-bottom: 1em;
+	}
+
+	&__paragraph{
+		line-height: 1.5;
+	}
+}
+
+.about{
+	&__img{
+		max-width: 600px;
+		margin: 0 auto;
+		margin-bottom: 3em;
+	}
+
+	&__texts{
+		color: #fff;
+	}
+
+	&__title{
+		font: var(--heading-font);
+	}
+
+	&__paragraph{
+		margin-top: 2em;
+		line-height: 1.5;
+	}
+
+	&__cta{
+		margin-top: 1em;
+		display: inline-block;
+		color: var(--cyan-gradient);
+		text-decoration: none;
+		line-height: 2.5;
+		border-bottom: 1px solid var(--cyan-gradient);
+
+		.about__icon{
+			width: 20px;
+			margin-left: .3em;
+			vertical-align: middle;
+			display: inline;
+		}
+	}
+
+}
+
+.testimony{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2em;
+	color: #fff;
+
+	&__item{
+		width: 90%;
+		margin: 0 auto;
+		background-color: var(--blue-testimonials);
+		padding: 2em 1.2em;
+		border-radius: 6px;
+		box-shadow: 1px 1px 10px -5px rgba(255, 255, 255, .28);
+		position: relative;
+
+		&--first::after{
+			content: "";
+			position: absolute;
+			top: -35px;
+			left: 0;
+			width: 40px;
+			height: 40px;
+			z-index: -1;
+			background-image: url("../images/bg-quotes.png");
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+	}
+
+	&__info{
+		margin-top: 1.5em;
+		display: flex;
+		align-items: center;
+		gap: 1em;
+	}
+
+	&__picture{
+		width: 40px;
+		height: 40px;
+
+		.testimony__img{
+			border-radius: 50%;
+			object-fit: cover;
+		}
+	}
+
+	&__name{
+		font-size: 1.1rem;
+		font-family: var(--body-font);
+		margin-bottom: .3em;
+	}
+
+	&__job{
+		font-size: .8rem;
+		color: #a1a1a1;
 	}
 }
