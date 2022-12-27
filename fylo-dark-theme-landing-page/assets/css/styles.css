@@ -134,6 +134,7 @@ body {
 .hero__main {
   text-align: center;
   position: relative;
+  max-width: 720px;
 }
 .hero__img {
   max-width: 500px;
@@ -214,6 +215,7 @@ body {
   text-decoration: none;
   line-height: 2.5;
   border-bottom: 1px solid var(--cyan-gradient);
+  transition: var(--transition) padding-left;
 }
 .about__cta .about__icon {
   width: 20px;
@@ -225,6 +227,7 @@ body {
 .about__cta:hover {
   color: #fff;
   border-bottom: 1px solid #fff;
+  padding-left: 1.2rem;
 }
 .about__cta:hover .about__icon {
   filter: grayscale(100%);
@@ -244,8 +247,12 @@ body {
   background-color: var(--blue-testimonials);
   padding: 2em 1.2em;
   border-radius: 6px;
-  box-shadow: 1px 1px 10px -5px rgba(255, 255, 255, 0.28);
   position: relative;
+  transition: var(--transition) transform, var(--transition) box-shadow;
+}
+.testimony__item:hover {
+  transform: rotate(2deg);
+  box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.15);
 }
 .testimony__item--first::after {
   content: "";
