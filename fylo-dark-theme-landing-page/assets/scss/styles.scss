@@ -17,6 +17,8 @@
 	--number-of-columns-cards: 1;
 	--number-of-columns-testimonials: 1;
 	--padding-container: 60px 0;
+	--transition: 300ms ease-in-out;
+
 }
 
 @media screen and (min-width: 64em) {
@@ -167,10 +169,14 @@ body {
 		font-weight: bold;
 		text-decoration: none;
 		border-radius: 30px;
+		transition: var(--transition) filter, var(--transition) box-shadow, var(--transition) transform;
 
 		&:hover{
 			background-color: #4cc1d3;
 			background-image: linear-gradient(315deg, #4cc1d3 0%, #4cc1d3 74%);
+			filter: brightness(1.1);
+			transform: translateY(-2px);
+			box-shadow: 0 1rem 1rem rgba(99, 225, 217, 0.15);
 		}
 	}
 }
@@ -354,10 +360,14 @@ body {
 			color: #fff;
 			font-family: var(--heading-font);
 			font-weight: 700;
+			transition: var(--transition) filter, var(--transition) box-shadow, var(--transition) transform;
 
 			&:hover{
 				background-color: #4cc1d3;
 				background-image: linear-gradient(315deg, #4cc1d3 0%, #4cc1d3 74%);
+				filter: brightness(1.1);
+				transform: translateY(-2px);
+				box-shadow: 0 1rem 1rem rgba(99, 225, 217, 0.15);
 			}
 		}
 	}
