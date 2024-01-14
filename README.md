@@ -14,5 +14,6 @@ This repository contains some challenges from [Frontend Mentors](https://www.fro
 |  [Fylo dark theme landing page](https://sanurb.github.io/Frontend-Mentor-Challenges/fylo-dark-theme-landing-page) | :star: :star: | HTML, CSS, Mobile First|
 |  [Room-homepage](https://sanurb.github.io/Frontend-Mentor-Challenges/room-homepage/) | :star: :star: :star: | HTML, CSS, Mobile First|
 |  [Calculator-App](https://sanurb.github.io/Frontend-Mentor-Challenges/calculator-app) | :star: :star: :star: | HTML, CSS, JS, Mobile First|
+|  [E-commerce product page](https://sanurb.github.io/Frontend-Mentor-Challenges/ecommerce-product-page) | :star: :star: :star: | HTML, CSS, JS, Mobile First|
 
 [^1]: **Difficulty**: Newbie :star:, Junior :star: :star:, Intermediate :star: :star: :star:, Advanced :star: :star: :star: :star:, Guru :star: :star: :star: :star: :star:
