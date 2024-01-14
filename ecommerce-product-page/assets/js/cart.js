@@ -18,7 +18,7 @@ const checkoutState = {
   items:
     `<div class="cart__body--content flex gap-1">
       <div class="cart__body--content-description flex gap-1">
-        <img class="cart__img" src="/images/image-product-1-thumbnail.jpg" alt="Shoes">
+        <img class="cart__img" src="./images/image-product-1-thumbnail.jpg" alt="Shoes">
             <div class="grid alt-bkg1">
               <p class="product--name">Fall Limited Edition Sneakers</p>
               <p class="product--amt flex">
