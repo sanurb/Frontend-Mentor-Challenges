@@ -642,7 +642,17 @@ nav {
 
 	.section--slider,
 	.product {
+		margin-top: 80px;
+		margin-bottom: 80px;
 		flex: 1 1 100%;
+	}
+
+	.section--slider {
+		margin-left: 80px;
+	}
+
+	.thumbnail {
+		width: 20%;
 	}
 }
 
