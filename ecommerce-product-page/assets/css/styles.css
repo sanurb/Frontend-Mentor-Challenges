@@ -335,6 +335,7 @@ nav {
 .nav__overlay.active {
 	opacity: 1;
 	visibility: visible;
+	z-index: 9;
 }
 
 .nav__panel-container.expanded {
