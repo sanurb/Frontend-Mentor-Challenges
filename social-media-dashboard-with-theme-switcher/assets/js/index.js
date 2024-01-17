@@ -25,7 +25,27 @@ const NumberAnimator = (function() {
     };
 })();
 
+
+const scrollRevealModule = (function() {
+    const sr = ScrollReveal({
+        distance: '25px',
+        duration: 600,
+        easing: 'cubic-bezier(.68, -.55, .265, 1.55)',
+        reset: true,
+    });
+
+    function init() {
+        sr.reveal(`.card--facebook`, { delay: 100 });
+        sr.reveal(`.card--twitter`, { delay: 200 });
+        sr.reveal(`.card--instagram`, { delay: 300 });
+        sr.reveal(`.card--youtube`, { delay: 400 });
+    }
+
+    return { init };
+})();
+
 document.addEventListener('DOMContentLoaded', () => {
+    scrollRevealModule.init();
     const numberElements = document.querySelectorAll('.number');
 
     numberElements.forEach(element => {

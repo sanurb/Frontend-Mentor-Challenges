@@ -37,10 +37,12 @@ Your users should be able to:
 - CSS custom properties (named classes according to BEM)
 - CSS Flexbox and Grid
 - Mobile-first workflow
+- [Scrollrevealjs](https://scrollrevealjs.org)
 
 ### Useful resources
 - [CSS wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
 - [The Perfect Theme Switch Component](https://www.aleksandrhovhannisyan.com/blog/the-perfect-theme-switch/#javascript-theme-toggle)
+- [requestAnimationFrame](https://developer.mozilla.org/es/docs/Web/API/window/requestAnimationFrame)
 
 ## Author
 
